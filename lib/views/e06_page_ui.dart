@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_workshop_ui_project/views/e01_page_ui.dart';
 import 'package:flutter_workshop_ui_project/views/e02_page_ui.dart';
 
 class E06PageUi extends StatefulWidget {
@@ -85,7 +86,7 @@ class _E06PageUiState extends State<E06PageUi> {
                   onPressed: () {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => E02PageUi()),
+                      MaterialPageRoute(builder: (context) => E01PageUi()),
                     );
                   },
                   style: ElevatedButton.styleFrom(
